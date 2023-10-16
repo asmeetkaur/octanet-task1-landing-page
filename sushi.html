@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Restaurant</title>
+    <style>
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .menu-item img {
+            width: 100px; /* Adjust the image size as needed */
+            margin-right: 1rem;
+        }
+
+        .menu-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .menu-item p {
+            margin-bottom: 0.5rem;
+        }
+
+form label, form textarea, form input[type="text"], form input[type="email"], form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#about {
+    position: relative;
+    background-image: url('image.jpg');
+    background-size: 80%;
+    color: black  ; 
+    padding: 2rem;
+}
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    z-index: 1;
+}
+
+#about h2, #about p {
+    color: black ;
+}
+
+#about p {
+    padding: 1rem 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sushi Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about"><b>
+        <h2>About Us</h2>
+        <h4>Sushi Delight: Where Culinary Excellence Meets Tradition</h4>
+        <p>Welcome to Sushi Delight, where we serve the finest sushi in town.</p>
+        <p> Welcome to Sushi Delight, a culinary haven where we've transformed the ordinary into the extraordinary, creating an exquisite journey into the heart of Japanese cuisine. Our story is one of passion, precision, and an unwavering commitment to serving sushi that transcends taste buds to become a work of art.
+Our journey began with a profound appreciation for sushi – the delicate balance of flavors, the precision in every slice, and the artistry behind each roll. Over the years, we've honed our craft, combining time-honored traditions with innovative techniques to bring you a dining experience like no other.
+Quality is the cornerstone of our philosophy. We source only the freshest, highest-quality ingredients, ensuring that each bite bursts with flavor and authenticity. From the melt-in-your-mouth sashimi to the intricately rolled maki, every dish is a testament to our dedication to perfection.
+Our menu is a symphony of flavors, offering classics like Nigiri and Maki alongside creative signature rolls that surprise and delight. Whether you're a seasoned sushi connoisseur or a newcomer to this culinary art, we invite you to explore a world of taste that's both familiar and daring.
+But Sushi Delight is more than just about food; it's about the entire experience. Our welcoming ambiance, attentive service, and artful presentation elevate your dining adventure to something truly extraordinary. Whether you're seeking a quiet dinner for two or hosting a special event, Sushi Delight promises an unforgettable experience.
+We invite you to join us in celebrating the art of sushi. Every dish we serve is a testament to our passion for this craft. It's not just about dining; it's about embarking on a journey that leads to new culinary horizons. Your journey into the world of sushi starts here, at Sushi Delight, where every meal is a masterpiece, and every visit is a celebration. Come, explore, and savor the magic of Sushi Delight.</p></b>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <img src="sushi1.jpg" alt="Sushi 1">
+            <h3><center>Nigiri Sushi</center></h3>
+            <p>This is one of the most recognizable types of sushi. It consists of a small hand-pressed mound of vinegared rice with a slice of raw or cooked seafood (like tuna, salmon, or shrimp) on top. It's often garnished with wasabi and served with soy sauce.</p>
+            <p>Price: Rs.1299</p>
+        </div>
+        <div class="menu-item">
+            <img src="sushi2.jpg" alt="Sushi 2">
+            <h3><center>Maki Sushi</center></h3>
+            <p>Maki sushi is made by rolling rice, fish, and vegetables in a sheet of seaweed (nori). It's cut into bite-sized pieces and often served with pickled ginger and wasabi. Some popular maki rolls include California rolls, spicy tuna rolls, and dragon rolls.</p>
+            <p>Price: Rs.1349</p>
+        </div>
+        <div class="menu-item">
+            <img src="sushi3.jpg" alt="Sushi 3">
+            <h3><center>Temaki Sushi</center></h3>
+            <p>Also known as hand rolls, temaki sushi is a cone-shaped sushi roll made by wrapping rice, fish, and vegetables in a sheet of nori. It's meant to be eaten by hand and is often filled with a variety of ingredients.</p>
+            <p>Price: Rs.1179</p>
+        </div>
+        <div class="menu-item">
+            <img src="sushi4.jpg" alt="Sushi 4">
+            <h3><center>Uramaki Sushi</center></h3>
+            <p>Uramaki, or inside-out rolls, have rice on the outside and nori on the inside. The rice is often covered with sesame seeds or tobiko (fish roe). Common uramaki rolls include the rainbow roll and spider roll.</p>
+            <p>Price: Rs.999</p>
+        </div>
+        <div class="menu-item">
+            <img src="sushi5.jpg" alt="Sushi 5">
+            <h3><center>Chirashi Sushi</center></h3>
+            <p>Chirashi sushi consists of a bowl of vinegared rice topped with a variety of sashimi, vegetables, and garnishes. It's a colorful and visually appealing dish.</p>
+            <p>Price: Rs.1139</p>
+        </div>
+        <div class="menu-item">
+            <img src="sushi6.jpg" alt="Sushi 6">
+            <h3><center>Inari Sushi</center></h3>
+            <p>Inari sushi is made by stuffing seasoned sushi rice into a pocket of marinated and slightly sweet tofu skin called inarizushi-no-moto. It's often enjoyed as a sweet and savory snack.</p> 
+            <p>Price: Rs.1389</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer> <center>
+        <p>&copy; 2023 Sushi Delight</p>
+        <p> Developed By: Asmeet Kaur </p>
+    </footer> </center>
+</body>
+</html>
